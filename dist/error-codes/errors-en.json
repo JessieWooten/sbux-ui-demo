@@ -1,0 +1,237 @@
+{
+    "version": "1.0",
+    "module":{
+          "2":{
+              "code":{
+                  "30":{
+                      "title":"Information Code (C:30 M:2)",
+                      "txt":"(C:30 M:2) Incorrect brew data. Please restart the machine and select a different type of brew. If problem persists update the Brew Parameters (menu file) or call service.",
+                      "event":1
+                  },
+                  "20":{
+                      "title":"Information missing (C:20 M:2)",
+                      "txt":"(C:20 M:2) Information incomplete or missing. Please restart the machine and select a different type of brew. If problem persists update the Brew Parameters or call service.",
+                      "event":2
+                    },
+                  "45":{
+                      "title":"Descale Finished (C:45 M:2)",
+                      "txt":"(C:45 M:2) Empty and clean pitcher. Clean basket and brew handle. Dispose of liquid carefully. Press \"RESTART\" to continue using the machine OR turn off the main power to shut down for the day",
+                      "event":3
+                  }
+              }
+          },
+          "4":{
+              "code":{
+                  "4":{
+                      "title":"Purge check (C:4 M:4)",
+                      "txt":"(C:4 M:4) Purge check failed. Check the purge valve, make sure brew chamber is empty, the brew handle and brew basket are placed correctly, and locking handle is down. If problem persists, call service.",
+                      "event":4
+                  },
+                  "70":{
+                      "title":"Cold Brew Chamber (C:70 M:4)",
+                      "txt":"(C:70 M:4) Machine has not been run for a while. To ensure proper temperatures for recipes, run a manual rinse before your next recipe.",
+                      "event":5
+                  }
+              }
+          },
+          "5":{
+              "code":{
+                  "1":{
+            "title":"Brew chamber Glass (C:1 M:5)",
+            "txt":"(C:1 M:5) Glass brew chamber is not properly attached. Make sure that the brew chamber is in place and properly locked",
+            "event":6
+          },
+          "2":{
+            "title":"Brew handle (C:2 M:5)",
+            "txt":"(C:2 M:5) Brew handle not detected. Make sure that the Brew handle is placed correctly and the locking handle is down.",
+            "event":7
+          },
+          "3":{
+            "title":"Chamber Not Sealed (C:3 M:5)",
+            "txt":"(C:3 M:5) Brew chamber not closed. Check the purge valve, make sure that edges of the brew basket are clean, brew handle and brew basket are placed correctly, and locking handle is down. If problem persists, call service.",
+            "event":8
+          },
+          "11":{
+            "title":"Temperature Sensor (C:11 M:5)",
+            "txt":"(C:11 M:5) TB1 Short. Restart the machine. If problem persists, call service.",
+            "event":9
+          },
+          "12":{
+            "title":"Temperature Sensor (C:12 M:5)",
+            "txt":"(C:12 M:5) TB2 Short. Restart the machine. If problem persists, call service.",
+            "event":10
+          },
+          "13":{
+            "title":"Temperature Sensor (C:13 M:5)",
+            "txt":"(C:13 M:5) TB3 Short. Restart the machine. If problem persists, call service.",
+            "event":11
+          },
+          "14":{
+            "title":"Temperature Sensor (C:14 M:5)",
+            "txt":"(C:14 M:5) Tcold Short. Restart the machine. If problem persists, call service.",
+            "event":12
+          },
+          "15":{
+            "title":"Temperature Sensor (C:15 M:5)",
+            "txt":"(C:15 M:5) Thot Short. Restart the machine. If problem persists, call service.",
+            "event":13
+          },
+          "16":{
+            "title":"Temperature Sensor (C:16 M:5)",
+            "txt":"(C:16 M:5) Tmix Short. Restart the machine. If problem persists, call service.",
+            "event":14
+          },
+          "17":{
+            "title":"Temperature Sensor (C:17 M:5)",
+            "txt":"(C:17 M:5) TB1 Open. Restart the machine. If problem persists, call service.",
+            "event":15
+          },
+          "18":{
+            "title":"Temperature Sensor (C:18 M:5)",
+            "txt":"(C:18 M:5) TB2 Open. Restart the machine. If problem persists, call service.",
+            "event":16
+          },
+          "19":{
+            "title":"Temperature Sensor (C:19 M:5)",
+            "txt":"(C:19 M:5) TB3 Open. Restart the machine. If problem persists, call service.",
+            "event":17
+          },
+          "20":{
+            "title":"Temperature Sensor (C:20 M:5)",
+            "txt":"(C:20 M:5) Tcold Open. Restart the machine. If problem persists, call service.",
+            "event":18
+          },
+          "21":{
+            "title":"Temperature Sensor (C:21 M:5)",
+            "txt":"(C:21 M:5) Tmix Open. Restart the machine. If problem persists, call service.",
+            "event":19
+          },
+          "22":{
+            "title":"Temperature Sensor (C:22 M:5)",
+            "txt":"(C:22 M:5) Thot Open. Restart the machine. If problem persists, call service.",
+            "event":20
+          },
+          "40":{
+            "title":"Flow meter (C:40 M:5)",
+            "txt":"(C:40 M:5) Water is not flowing or flow is too low. Please check if water is connected and available to flow. Restart the machine. If problem persists, call service.",
+            "event":21
+          },
+          "50":{
+            "title":"Communication (C:50 M:5)",
+            "txt":"(C:50 M:5) LIM communication failure. Please Try again. If problem persists, call service.",
+            "event":22
+          }
+              }
+          },
+      "7":{
+        "code":{
+          "41":{
+            "title":"Water Flow is Ok",
+            "txt":"Water Flow is Ok. No need for adjustments. Turn machine off, wait 10 seconds, then turn back on.",
+            "event":23
+          },
+          "42":{
+            "title":"Water Flow is HIGH",
+            "txt":"It is necessary reduce the flow slightly. Open the Pump by-pass, turning the screw Counter-Clockwise. Then execute the test again. Flow Rate Between 14.5 - 15",
+            "event":24
+          },
+          "43":{
+            "title":"Water Flow is HIGH",
+            "txt":"It is necessary reduce the flow slightly. Open the Pump by-pass, turning the screw Counter-Clockwise. Then execute the test again. Flow Rate Between 15 - 15.5",
+            "event":25
+          },
+          "44":{
+            "title":"Water Flow is HIGH",
+            "txt":"It is necessary reduce the flow slightly. Open the Pump by-pass, turning the screw Counter-Clockwise. Then execute the test again. Flow Rate Above 15.5",
+            "event":26
+          },
+          "45":{
+            "title":"Water Flow is LOW",
+            "txt":"It is necessary increase the flow slightly. Close the Pump by-pass, turning the screw Clockwise. Then execute the test again. Flow Rate Between 13 - 13.5",
+            "event":27
+          },
+          "46":{
+            "title":"Water Flow is LOW",
+            "txt":"It is necessary increase the flow slightly. Close the Pump by-pass, turning the screw Clockwise. Then execute the test again. Flow Rate Between 12.5 - 13",
+            "event":28
+          },
+          "47":{
+            "title":"Water Flow is LOW",
+            "txt":"It is necessary increase the flow slightly. Close the Pump by-pass, turning the screw Clockwise. Then execute the test again. Flow Rate Under 12.5",
+            "event":29
+          },
+          "50":{
+            "title":"Nitrogen Flush Complete",
+            "txt":"The Nitrogren Flush is complete. The machine is now free of water.",
+            "event":30
+          },
+          "52":{
+            "title":"Water Flow is HIGH",
+            "txt":"Flow above 16. 1: Adjust incoming pressure 30 - 90 psi. 2: If problem  persists, call service",
+            "event":31
+          },
+          "53":{
+            "title":"Water Flow is Low",
+            "txt":"Flow below 13. 1: Adjust incoming pressure 30 - 90 psi. 2: If problem  persists, call service",
+            "event":32
+          },
+          "60":{
+            "title":"Vacuum Test Complete",
+            "txt":"Target is between 62 and 68. It is between 62 and 68. Press ok to continue.",
+            "event":33
+          },
+          "61":{
+            "title":"Vacuum Test Complete",
+            "txt":"Target is between 62 and 68. Current Setpoint is too high. Between 68 - 78",
+            "event":34
+          },
+          "62":{
+            "title":"Vacuum Test Complete",
+            "txt":"Target is between 62 and 68. The Vacuum Setpoint is too high. Above 78",
+            "event":35
+          },
+          "63":{
+            "title":"Vacuum Test Complete",
+            "txt":"Target is between 62 and 68. The Vacuum Setpoint is too low. Between 52 - 62",
+            "event":36
+          },
+          "64":{
+            "title":"Vacuum Test Complete",
+            "txt":"Target is between 62 and 68. The Vacuum Setpoint is too low. Below 52",
+            "event":37
+          },
+          "65":{
+            "title":"Vacuum Test Complete",
+            "txt":"There is no leak.",
+            "event":38
+          },
+          "66":{
+            "title":"Vacuum Test Complete",
+            "txt":"There is a leak in the system.",
+            "event":39
+          },
+          "67":{
+            "title":"Vacuum Leak not applicable",
+            "txt":"The Vacuum leak test is not applicable on this version of product. Proceed with inspection or other method of leak analysis.",
+            "event":40
+          },
+          "68":{
+            "title":"Vacuum is too deep",
+            "txt":"The Vacuum depth needs to be decreased. Please open the Vacuum regulator adjustment screw 1/2 turn and try again.",
+            "event":41
+          },
+          "69":{
+            "title":"Vacuum is too shallow",
+            "txt":"The Vacuum depth needs to be increased. Please close the Vacuum regulator adjustment screw 1/2 turn and try again.",
+            "event":42
+          },
+          "71":{
+            "title":"Vacuum is OK",
+            "txt":"The Vacuum depth is correct. No adjustment necessary. The regulator adjustment screw can be locked.",
+            "event":43
+          }
+        }
+      }
+      }
+  }
+  
